@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		075FA7551DC1DAF30056FC29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FA7541DC1DAF30056FC29 /* AppDelegate.swift */; };
+		075FA7571DC1DAF30056FC29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FA7561DC1DAF30056FC29 /* ViewController.swift */; };
+		075FA75C1DC1DAF30056FC29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 075FA75B1DC1DAF30056FC29 /* Assets.xcassets */; };
+		075FA75F1DC1DAF30056FC29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075FA75D1DC1DAF30056FC29 /* LaunchScreen.storyboard */; };
+		075FA76A1DC1DAF30056FC29 /* FeiGouTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FA7691DC1DAF30056FC29 /* FeiGouTests.swift */; };
+		075FA7751DC1DAF30056FC29 /* FeiGouUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FA7741DC1DAF30056FC29 /* FeiGouUITests.swift */; };
+		075FA7831DC1DB200056FC29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075FA7821DC1DB200056FC29 /* Main.storyboard */; };
+		075FA7861DC1DB400056FC29 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FA7851DC1DB400056FC29 /* HomeTableViewController.swift */; };
+		075FA78D1DC1DB6B0056FC29 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FA78B1DC1DB6B0056FC29 /* Extension.swift */; };
+		075FA78E1DC1DB6B0056FC29 /* FeiGouApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FA78C1DC1DB6B0056FC29 /* FeiGouApi.swift */; };
+		075FA81D1DC1F9090056FC29 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FA81C1DC1F9090056FC29 /* HomeModel.swift */; };
+		075FA82A1DC202E90056FC29 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FA81F1DC202E90056FC29 /* Converter.swift */; };
+		075FA82C1DC202E90056FC29 /* HelpingMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FA8221DC202E90056FC29 /* HelpingMapper.swift */; };
+		075FA8311DC202E90056FC29 /* JSONDeserializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FA8271DC202E90056FC29 /* JSONDeserializer.swift */; };
+		075FA8321DC202E90056FC29 /* JSONSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FA8281DC202E90056FC29 /* JSONSerializer.swift */; };
+		075FA8331DC202E90056FC29 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FA8291DC202E90056FC29 /* Property.swift */; };
+		075FA83B1DC21E920056FC29 /* Info-iOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 075FA8351DC21E920056FC29 /* Info-iOS.plist */; };
+		075FA83C1DC21E920056FC29 /* Info-OSX.plist in Resources */ = {isa = PBXBuildFile; fileRef = 075FA8361DC21E920056FC29 /* Info-OSX.plist */; };
+		075FA83D1DC21E920056FC29 /* Info-tvOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 075FA8371DC21E920056FC29 /* Info-tvOS.plist */; };
+		075FA83E1DC21E920056FC29 /* Info-watchOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 075FA8381DC21E920056FC29 /* Info-watchOS.plist */; };
+		075FA83F1DC21E920056FC29 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FA83A1DC21E920056FC29 /* SwiftyJSON.swift */; };
+		E8CCA25878C282F45A120264 /* Pods_FeiGou.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E05AB36BDA527E2E1DB3F7A8 /* Pods_FeiGou.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		075FA7661DC1DAF30056FC29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 075FA7491DC1DAF30056FC29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 075FA7501DC1DAF30056FC29;
+			remoteInfo = FeiGou;
+		};
+		075FA7711DC1DAF30056FC29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 075FA7491DC1DAF30056FC29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 075FA7501DC1DAF30056FC29;
+			remoteInfo = FeiGou;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		075FA7511DC1DAF30056FC29 /* FeiGou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeiGou.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		075FA7541DC1DAF30056FC29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		075FA7561DC1DAF30056FC29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
+		075FA75B1DC1DAF30056FC29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		075FA75E1DC1DAF30056FC29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		075FA7601DC1DAF30056FC29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		075FA7651DC1DAF30056FC29 /* FeiGouTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeiGouTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		075FA7691DC1DAF30056FC29 /* FeiGouTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeiGouTests.swift; sourceTree = "<group>"; };
+		075FA76B1DC1DAF30056FC29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		075FA7701DC1DAF30056FC29 /* FeiGouUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeiGouUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		075FA7741DC1DAF30056FC29 /* FeiGouUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeiGouUITests.swift; sourceTree = "<group>"; };
+		075FA7761DC1DAF30056FC29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		075FA7821DC1DB200056FC29 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		075FA7851DC1DB400056FC29 /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		075FA78B1DC1DB6B0056FC29 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		075FA78C1DC1DB6B0056FC29 /* FeiGouApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeiGouApi.swift; sourceTree = "<group>"; };
+		075FA81C1DC1F9090056FC29 /* HomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		075FA81F1DC202E90056FC29 /* Converter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
+		075FA8211DC202E90056FC29 /* HandyJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandyJSON.h; sourceTree = "<group>"; };
+		075FA8221DC202E90056FC29 /* HelpingMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpingMapper.swift; sourceTree = "<group>"; };
+		075FA8271DC202E90056FC29 /* JSONDeserializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONDeserializer.swift; sourceTree = "<group>"; };
+		075FA8281DC202E90056FC29 /* JSONSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONSerializer.swift; sourceTree = "<group>"; };
+		075FA8291DC202E90056FC29 /* Property.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
+		075FA8351DC21E920056FC29 /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
+		075FA8361DC21E920056FC29 /* Info-OSX.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-OSX.plist"; sourceTree = "<group>"; };
+		075FA8371DC21E920056FC29 /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
+		075FA8381DC21E920056FC29 /* Info-watchOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-watchOS.plist"; sourceTree = "<group>"; };
+		075FA8391DC21E920056FC29 /* SwiftyJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftyJSON.h; sourceTree = "<group>"; };
+		075FA83A1DC21E920056FC29 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		2E157C86BA893AEC6E30FBAC /* Pods-FeiGou.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeiGou.release.xcconfig"; path = "Pods/Target Support Files/Pods-FeiGou/Pods-FeiGou.release.xcconfig"; sourceTree = "<group>"; };
+		3F4060592FE6AE87551E84F5 /* Pods-FeiGou.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeiGou.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FeiGou/Pods-FeiGou.debug.xcconfig"; sourceTree = "<group>"; };
+		E05AB36BDA527E2E1DB3F7A8 /* Pods_FeiGou.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FeiGou.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		075FA74E1DC1DAF30056FC29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8CCA25878C282F45A120264 /* Pods_FeiGou.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		075FA7621DC1DAF30056FC29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		075FA76D1DC1DAF30056FC29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		075FA7481DC1DAF30056FC29 = {
+			isa = PBXGroup;
+			children = (
+				075FA7531DC1DAF30056FC29 /* FeiGou */,
+				075FA7681DC1DAF30056FC29 /* FeiGouTests */,
+				075FA7731DC1DAF30056FC29 /* FeiGouUITests */,
+				075FA7521DC1DAF30056FC29 /* Products */,
+				2896E93676BD681B619EEFCB /* Pods */,
+				4820258E75A2F6B9C36F6394 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		075FA7521DC1DAF30056FC29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				075FA7511DC1DAF30056FC29 /* FeiGou.app */,
+				075FA7651DC1DAF30056FC29 /* FeiGouTests.xctest */,
+				075FA7701DC1DAF30056FC29 /* FeiGouUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		075FA7531DC1DAF30056FC29 /* FeiGou */ = {
+			isa = PBXGroup;
+			children = (
+				075FA7881DC1DB590056FC29 /* Order */,
+				075FA7871DC1DB530056FC29 /* My */,
+				075FA7841DC1DB400056FC29 /* Home */,
+				075FA78A1DC1DB6B0056FC29 /* Tools */,
+				075FA7891DC1DB640056FC29 /* Others */,
+			);
+			path = FeiGou;
+			sourceTree = "<group>";
+		};
+		075FA7681DC1DAF30056FC29 /* FeiGouTests */ = {
+			isa = PBXGroup;
+			children = (
+				075FA7691DC1DAF30056FC29 /* FeiGouTests.swift */,
+				075FA76B1DC1DAF30056FC29 /* Info.plist */,
+			);
+			path = FeiGouTests;
+			sourceTree = "<group>";
+		};
+		075FA7731DC1DAF30056FC29 /* FeiGouUITests */ = {
+			isa = PBXGroup;
+			children = (
+				075FA7741DC1DAF30056FC29 /* FeiGouUITests.swift */,
+				075FA7761DC1DAF30056FC29 /* Info.plist */,
+			);
+			path = FeiGouUITests;
+			sourceTree = "<group>";
+		};
+		075FA7841DC1DB400056FC29 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				075FA7851DC1DB400056FC29 /* HomeTableViewController.swift */,
+				075FA81C1DC1F9090056FC29 /* HomeModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		075FA7871DC1DB530056FC29 /* My */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		075FA7881DC1DB590056FC29 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		075FA7891DC1DB640056FC29 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				075FA7541DC1DAF30056FC29 /* AppDelegate.swift */,
+				075FA7561DC1DAF30056FC29 /* ViewController.swift */,
+				075FA7821DC1DB200056FC29 /* Main.storyboard */,
+				075FA75B1DC1DAF30056FC29 /* Assets.xcassets */,
+				075FA75D1DC1DAF30056FC29 /* LaunchScreen.storyboard */,
+				075FA7601DC1DAF30056FC29 /* Info.plist */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		075FA78A1DC1DB6B0056FC29 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				075FA8341DC21E920056FC29 /* Source */,
+				075FA81E1DC202E90056FC29 /* HandyJSON */,
+				075FA78B1DC1DB6B0056FC29 /* Extension.swift */,
+				075FA78C1DC1DB6B0056FC29 /* FeiGouApi.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		075FA81E1DC202E90056FC29 /* HandyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				075FA81F1DC202E90056FC29 /* Converter.swift */,
+				075FA8211DC202E90056FC29 /* HandyJSON.h */,
+				075FA8221DC202E90056FC29 /* HelpingMapper.swift */,
+				075FA8271DC202E90056FC29 /* JSONDeserializer.swift */,
+				075FA8281DC202E90056FC29 /* JSONSerializer.swift */,
+				075FA8291DC202E90056FC29 /* Property.swift */,
+			);
+			path = HandyJSON;
+			sourceTree = "<group>";
+		};
+		075FA8341DC21E920056FC29 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				075FA8351DC21E920056FC29 /* Info-iOS.plist */,
+				075FA8361DC21E920056FC29 /* Info-OSX.plist */,
+				075FA8371DC21E920056FC29 /* Info-tvOS.plist */,
+				075FA8381DC21E920056FC29 /* Info-watchOS.plist */,
+				075FA8391DC21E920056FC29 /* SwiftyJSON.h */,
+				075FA83A1DC21E920056FC29 /* SwiftyJSON.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		2896E93676BD681B619EEFCB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F4060592FE6AE87551E84F5 /* Pods-FeiGou.debug.xcconfig */,
+				2E157C86BA893AEC6E30FBAC /* Pods-FeiGou.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4820258E75A2F6B9C36F6394 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E05AB36BDA527E2E1DB3F7A8 /* Pods_FeiGou.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		075FA7501DC1DAF30056FC29 /* FeiGou */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 075FA7791DC1DAF30056FC29 /* Build configuration list for PBXNativeTarget "FeiGou" */;
+			buildPhases = (
+				02E0D6613E0A7C1A4F529004 /* [CP] Check Pods Manifest.lock */,
+				075FA74D1DC1DAF30056FC29 /* Sources */,
+				075FA74E1DC1DAF30056FC29 /* Frameworks */,
+				075FA74F1DC1DAF30056FC29 /* Resources */,
+				7E915B3D156DD3946FB7E043 /* [CP] Embed Pods Frameworks */,
+				58A5267E25A8434C63EAFEA7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FeiGou;
+			productName = FeiGou;
+			productReference = 075FA7511DC1DAF30056FC29 /* FeiGou.app */;
+			productType = "com.apple.product-type.application";
+		};
+		075FA7641DC1DAF30056FC29 /* FeiGouTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 075FA77C1DC1DAF30056FC29 /* Build configuration list for PBXNativeTarget "FeiGouTests" */;
+			buildPhases = (
+				075FA7611DC1DAF30056FC29 /* Sources */,
+				075FA7621DC1DAF30056FC29 /* Frameworks */,
+				075FA7631DC1DAF30056FC29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				075FA7671DC1DAF30056FC29 /* PBXTargetDependency */,
+			);
+			name = FeiGouTests;
+			productName = FeiGouTests;
+			productReference = 075FA7651DC1DAF30056FC29 /* FeiGouTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		075FA76F1DC1DAF30056FC29 /* FeiGouUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 075FA77F1DC1DAF30056FC29 /* Build configuration list for PBXNativeTarget "FeiGouUITests" */;
+			buildPhases = (
+				075FA76C1DC1DAF30056FC29 /* Sources */,
+				075FA76D1DC1DAF30056FC29 /* Frameworks */,
+				075FA76E1DC1DAF30056FC29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				075FA7721DC1DAF30056FC29 /* PBXTargetDependency */,
+			);
+			name = FeiGouUITests;
+			productName = FeiGouUITests;
+			productReference = 075FA7701DC1DAF30056FC29 /* FeiGouUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		075FA7491DC1DAF30056FC29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = like;
+				TargetAttributes = {
+					075FA7501DC1DAF30056FC29 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = WWWNX8N7BL;
+						ProvisioningStyle = Automatic;
+					};
+					075FA7641DC1DAF30056FC29 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = WWWNX8N7BL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 075FA7501DC1DAF30056FC29;
+					};
+					075FA76F1DC1DAF30056FC29 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = WWWNX8N7BL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 075FA7501DC1DAF30056FC29;
+					};
+				};
+			};
+			buildConfigurationList = 075FA74C1DC1DAF30056FC29 /* Build configuration list for PBXProject "FeiGou" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 075FA7481DC1DAF30056FC29;
+			productRefGroup = 075FA7521DC1DAF30056FC29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				075FA7501DC1DAF30056FC29 /* FeiGou */,
+				075FA7641DC1DAF30056FC29 /* FeiGouTests */,
+				075FA76F1DC1DAF30056FC29 /* FeiGouUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		075FA74F1DC1DAF30056FC29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075FA83D1DC21E920056FC29 /* Info-tvOS.plist in Resources */,
+				075FA83B1DC21E920056FC29 /* Info-iOS.plist in Resources */,
+				075FA7831DC1DB200056FC29 /* Main.storyboard in Resources */,
+				075FA75F1DC1DAF30056FC29 /* LaunchScreen.storyboard in Resources */,
+				075FA75C1DC1DAF30056FC29 /* Assets.xcassets in Resources */,
+				075FA83E1DC21E920056FC29 /* Info-watchOS.plist in Resources */,
+				075FA83C1DC21E920056FC29 /* Info-OSX.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		075FA7631DC1DAF30056FC29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		075FA76E1DC1DAF30056FC29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02E0D6613E0A7C1A4F529004 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		58A5267E25A8434C63EAFEA7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FeiGou/Pods-FeiGou-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E915B3D156DD3946FB7E043 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FeiGou/Pods-FeiGou-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		075FA74D1DC1DAF30056FC29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075FA7861DC1DB400056FC29 /* HomeTableViewController.swift in Sources */,
+				075FA78E1DC1DB6B0056FC29 /* FeiGouApi.swift in Sources */,
+				075FA82A1DC202E90056FC29 /* Converter.swift in Sources */,
+				075FA83F1DC21E920056FC29 /* SwiftyJSON.swift in Sources */,
+				075FA7571DC1DAF30056FC29 /* ViewController.swift in Sources */,
+				075FA81D1DC1F9090056FC29 /* HomeModel.swift in Sources */,
+				075FA8331DC202E90056FC29 /* Property.swift in Sources */,
+				075FA82C1DC202E90056FC29 /* HelpingMapper.swift in Sources */,
+				075FA8321DC202E90056FC29 /* JSONSerializer.swift in Sources */,
+				075FA8311DC202E90056FC29 /* JSONDeserializer.swift in Sources */,
+				075FA7551DC1DAF30056FC29 /* AppDelegate.swift in Sources */,
+				075FA78D1DC1DB6B0056FC29 /* Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		075FA7611DC1DAF30056FC29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075FA76A1DC1DAF30056FC29 /* FeiGouTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		075FA76C1DC1DAF30056FC29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075FA7751DC1DAF30056FC29 /* FeiGouUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		075FA7671DC1DAF30056FC29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 075FA7501DC1DAF30056FC29 /* FeiGou */;
+			targetProxy = 075FA7661DC1DAF30056FC29 /* PBXContainerItemProxy */;
+		};
+		075FA7721DC1DAF30056FC29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 075FA7501DC1DAF30056FC29 /* FeiGou */;
+			targetProxy = 075FA7711DC1DAF30056FC29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		075FA75D1DC1DAF30056FC29 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				075FA75E1DC1DAF30056FC29 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		075FA7771DC1DAF30056FC29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		075FA7781DC1DAF30056FC29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		075FA77A1DC1DAF30056FC29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F4060592FE6AE87551E84F5 /* Pods-FeiGou.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WWWNX8N7BL;
+				INFOPLIST_FILE = FeiGou/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = klike.FeiGou;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		075FA77B1DC1DAF30056FC29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E157C86BA893AEC6E30FBAC /* Pods-FeiGou.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WWWNX8N7BL;
+				INFOPLIST_FILE = FeiGou/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = klike.FeiGou;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		075FA77D1DC1DAF30056FC29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WWWNX8N7BL;
+				INFOPLIST_FILE = FeiGouTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = klike.FeiGouTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FeiGou.app/FeiGou";
+			};
+			name = Debug;
+		};
+		075FA77E1DC1DAF30056FC29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WWWNX8N7BL;
+				INFOPLIST_FILE = FeiGouTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = klike.FeiGouTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FeiGou.app/FeiGou";
+			};
+			name = Release;
+		};
+		075FA7801DC1DAF30056FC29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = WWWNX8N7BL;
+				INFOPLIST_FILE = FeiGouUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = klike.FeiGouUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FeiGou;
+			};
+			name = Debug;
+		};
+		075FA7811DC1DAF30056FC29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = WWWNX8N7BL;
+				INFOPLIST_FILE = FeiGouUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = klike.FeiGouUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FeiGou;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		075FA74C1DC1DAF30056FC29 /* Build configuration list for PBXProject "FeiGou" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075FA7771DC1DAF30056FC29 /* Debug */,
+				075FA7781DC1DAF30056FC29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		075FA7791DC1DAF30056FC29 /* Build configuration list for PBXNativeTarget "FeiGou" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075FA77A1DC1DAF30056FC29 /* Debug */,
+				075FA77B1DC1DAF30056FC29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		075FA77C1DC1DAF30056FC29 /* Build configuration list for PBXNativeTarget "FeiGouTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075FA77D1DC1DAF30056FC29 /* Debug */,
+				075FA77E1DC1DAF30056FC29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		075FA77F1DC1DAF30056FC29 /* Build configuration list for PBXNativeTarget "FeiGouUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075FA7801DC1DAF30056FC29 /* Debug */,
+				075FA7811DC1DAF30056FC29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 075FA7491DC1DAF30056FC29 /* Project object */;
+}
