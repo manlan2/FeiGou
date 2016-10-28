@@ -9,9 +9,6 @@
 import UIKit
 import Alamofire
 
-private typealias JSONObject = [String : AnyObject]
-
-
 class FeiGouApi: NSObject {
 
     static let shareInstance = FeiGouApi()

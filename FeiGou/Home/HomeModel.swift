@@ -19,7 +19,7 @@ struct productListModel: HandyJSON {
     var expressPrice: Int?
     var name:String?
     var picPath:String?
-    var price: Int?
+    var price: Int!
     var productCode:String?
     var productDescribe:String?
     var productId: Int?
@@ -27,6 +27,13 @@ struct productListModel: HandyJSON {
     var status: Int?
     var stockNum: Int?
     var updateTime: Int64?
+    
+    mutating func mapping(mapper: HelpingMapper) {
+        mapper.specify(property: &picPath) { (string) -> (String) in
+//            return "http://120.24.3.172:8080/feigou-api" + string
+            return "https://source.unsplash.com/random/480x320"
+        }
+    }
 }
 
 struct categoryModel: HandyJSON {
@@ -39,9 +46,13 @@ struct categoryListModel: HandyJSON {
     var icon: String?
     var name: String?
     var updateTime: Int64?
+    
+    mutating func mapping(mapper: HelpingMapper) {
+        mapper.specify(property: &icon) { (string) -> (String) in
+            return "http://120.24.3.172:8080/feigou-api" + string
+        }
+    }
 }
-
-
 
 
 

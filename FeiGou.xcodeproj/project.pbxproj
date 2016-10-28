@@ -28,6 +28,8 @@
 		075FA83D1DC21E920056FC29 /* Info-tvOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 075FA8371DC21E920056FC29 /* Info-tvOS.plist */; };
 		075FA83E1DC21E920056FC29 /* Info-watchOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 075FA8381DC21E920056FC29 /* Info-watchOS.plist */; };
 		075FA83F1DC21E920056FC29 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FA83A1DC21E920056FC29 /* SwiftyJSON.swift */; };
+		07A14E731DC32F680097DA58 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A14E721DC32F680097DA58 /* BannerView.swift */; };
+		07A14E751DC358450097DA58 /* CategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07A14E741DC358450097DA58 /* CategoryCell.xib */; };
 		E8CCA25878C282F45A120264 /* Pods_FeiGou.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E05AB36BDA527E2E1DB3F7A8 /* Pods_FeiGou.framework */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +80,8 @@
 		075FA8381DC21E920056FC29 /* Info-watchOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-watchOS.plist"; sourceTree = "<group>"; };
 		075FA8391DC21E920056FC29 /* SwiftyJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftyJSON.h; sourceTree = "<group>"; };
 		075FA83A1DC21E920056FC29 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		07A14E721DC32F680097DA58 /* BannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		07A14E741DC358450097DA58 /* CategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryCell.xib; sourceTree = "<group>"; };
 		2E157C86BA893AEC6E30FBAC /* Pods-FeiGou.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeiGou.release.xcconfig"; path = "Pods/Target Support Files/Pods-FeiGou/Pods-FeiGou.release.xcconfig"; sourceTree = "<group>"; };
 		3F4060592FE6AE87551E84F5 /* Pods-FeiGou.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeiGou.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FeiGou/Pods-FeiGou.debug.xcconfig"; sourceTree = "<group>"; };
 		E05AB36BDA527E2E1DB3F7A8 /* Pods_FeiGou.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FeiGou.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -165,7 +169,9 @@
 			isa = PBXGroup;
 			children = (
 				075FA7851DC1DB400056FC29 /* HomeTableViewController.swift */,
+				07A14E721DC32F680097DA58 /* BannerView.swift */,
 				075FA81C1DC1F9090056FC29 /* HomeModel.swift */,
+				07A14E741DC358450097DA58 /* CategoryCell.xib */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -371,6 +377,7 @@
 				075FA75C1DC1DAF30056FC29 /* Assets.xcassets in Resources */,
 				075FA83E1DC21E920056FC29 /* Info-watchOS.plist in Resources */,
 				075FA83C1DC21E920056FC29 /* Info-OSX.plist in Resources */,
+				07A14E751DC358450097DA58 /* CategoryCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +461,7 @@
 				075FA8321DC202E90056FC29 /* JSONSerializer.swift in Sources */,
 				075FA8311DC202E90056FC29 /* JSONDeserializer.swift in Sources */,
 				075FA7551DC1DAF30056FC29 /* AppDelegate.swift in Sources */,
+				07A14E731DC32F680097DA58 /* BannerView.swift in Sources */,
 				075FA78D1DC1DB6B0056FC29 /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CategoryCell" id="DTS-xu-WiV" customClass="CategoryCell" customModule="FeiGou" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="133" height="152"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="133" height="152"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WmR-Md-Gh3">
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="WmR-Md-Gh3" secondAttribute="height" multiplier="1:1" id="bg0-Mn-OTc"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZeE-Cb-S5b">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="gKc-TF-hYT"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.2196078431372549" green="0.2196078431372549" blue="0.2196078431372549" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="WmR-Md-Gh3" firstAttribute="leading" secondItem="DTS-xu-WiV" secondAttribute="leading" constant="15" id="9hv-dk-nQ0"/>
+                <constraint firstAttribute="trailing" secondItem="WmR-Md-Gh3" secondAttribute="trailing" constant="15" id="9mt-Fn-Gna"/>
+                <constraint firstItem="WmR-Md-Gh3" firstAttribute="top" secondItem="DTS-xu-WiV" secondAttribute="top" constant="15" id="Qrp-c2-1Yr"/>
+                <constraint firstItem="ZeE-Cb-S5b" firstAttribute="leading" secondItem="DTS-xu-WiV" secondAttribute="leading" id="UCH-Rp-gdZ"/>
+                <constraint firstAttribute="trailing" secondItem="ZeE-Cb-S5b" secondAttribute="trailing" id="gYY-DO-ShV"/>
+                <constraint firstItem="ZeE-Cb-S5b" firstAttribute="top" secondItem="WmR-Md-Gh3" secondAttribute="bottom" constant="8" id="n3x-RB-ldo"/>
+            </constraints>
+            <size key="customSize" width="133" height="152"/>
+            <connections>
+                <outlet property="img" destination="WmR-Md-Gh3" id="qIU-RQ-WK9"/>
+                <outlet property="title" destination="ZeE-Cb-S5b" id="BOV-4o-QcT"/>
+            </connections>
+            <point key="canvasLocation" x="-39.5" y="18"/>
+        </collectionViewCell>
+    </objects>
+</document>

@@ -8,6 +8,9 @@
 
 import UIKit
 
+let screenW: CGFloat = UIScreen.main.bounds.width
+let screenH: CGFloat = UIScreen.main.bounds.height
+
 extension UIColor {
     
     class func rgb(_ r: CGFloat, g: CGFloat, b: CGFloat) -> UIColor {

@@ -16,11 +16,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="105" id="PJV-np-wGN">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="homelistcell" rowHeight="105" id="PJV-np-wGN" customClass="HomeListCell" customModule="FeiGou" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="92" width="375" height="105"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="PJV-np-wGN" id="qcZ-Gn-JRn">
-                                    <frame key="frameInset" width="375" height="104"/>
+                                    <frame key="frameInset" width="375" height="104.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="agE-vg-8o1">
@@ -57,6 +57,12 @@
                                         <constraint firstItem="wn9-S8-c3N" firstAttribute="trailing" secondItem="qcZ-Gn-JRn" secondAttribute="trailingMargin" id="zO7-6d-Z3j"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="img" destination="agE-vg-8o1" id="D8Q-XQ-aDu"/>
+                                    <outlet property="price" destination="vfg-Cz-8sS" id="k9a-W8-84N"/>
+                                    <outlet property="state" destination="zEA-vC-7Rb" id="cef-Lx-R2K"/>
+                                    <outlet property="title" destination="wn9-S8-c3N" id="NHk-cu-KLt"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -75,7 +81,7 @@
             <objects>
                 <navigationController title="首页" id="czq-4o-Leg" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="首页" image="tab_home_unselect" selectedImage="tab_home_select" id="XJe-kb-c7U"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="L1L-S6-H5T">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="L1L-S6-H5T">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.99215686274509807" green="0.81960784313725488" blue="0.086274509803921567" alpha="1" colorSpace="calibratedRGB"/>
@@ -101,7 +107,7 @@
                                 <rect key="frame" x="0.0" y="92" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BZm-nV-as0" id="ZUm-BJ-xVe">
-                                    <frame key="frameInset" width="375" height="43"/>
+                                    <frame key="frameInset" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -130,7 +136,7 @@
                                 <rect key="frame" x="0.0" y="92" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3Bq-WV-PSh" id="PFP-Bi-7lx">
-                                    <frame key="frameInset" width="375" height="43"/>
+                                    <frame key="frameInset" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -192,8 +198,8 @@
                     </tabBar>
                     <connections>
                         <segue destination="czq-4o-Leg" kind="relationship" relationship="viewControllers" id="d86-Nf-o4U"/>
-                        <segue destination="zOV-TO-k72" kind="relationship" relationship="viewControllers" id="4CK-IU-XII"/>
                         <segue destination="JIP-K1-FcD" kind="relationship" relationship="viewControllers" id="0k2-9B-hHJ"/>
+                        <segue destination="zOV-TO-k72" kind="relationship" relationship="viewControllers" id="4CK-IU-XII"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NNK-Eo-xxR" userLabel="First Responder" sceneMemberID="firstResponder"/>
