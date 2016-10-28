@@ -25,6 +25,18 @@ class FeiGouApi: NSObject {
             }
         }
     }
+    
+    func getHomeBanner(completion: @escaping () -> Void) {
+//        request(urlString: "api/upload/", parameters: <#T##[String : String]?#>, completion: <#T##(String?) -> Void#>)
+    }
+    
+    func getHomeCategory(completion: @escaping (categoryModel) -> Void) {
+        request(urlString: "index/category", parameters: nil) { (jsonStr) in
+            if let model = JSONDeserializer<categoryModel>.deserializeFrom(json: jsonStr) {
+                completion(model)
+            }
+        }
+    }
 
     func request(urlString: String, parameters: [String: String]?, completion: @escaping (String?) -> Void) {
         

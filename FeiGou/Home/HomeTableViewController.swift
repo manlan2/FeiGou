@@ -21,8 +21,11 @@ class HomeTableViewController: UITableViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        FeiGouApi.shareInstance.getHomeList(pageNum: 0, pageSize: 3) { (res) in
-            print(res)
+        FeiGouApi.shareInstance.getHomeList(pageNum: 0, pageSize: 3) { (respondModel) in
+            print(respondModel)
+        }
+        FeiGouApi.shareInstance.getHomeCategory { (respondModel) in
+            print(respondModel)
         }
     }
 

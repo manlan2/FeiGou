@@ -6,18 +6,12 @@
 //  Copyright © 2016年 like. All rights reserved.
 //
 
-import UIKit
-
-class HomeModel: NSObject {
-
-}
-
-struct ProductModel: HandyJSON{
+struct ProductModel: HandyJSON {
     var page: [String: AnyObject]?
     var productList: [productListModel]?
 }
 
-struct productListModel: HandyJSON{
+struct productListModel: HandyJSON {
     var bussinesId: Int?
     var categoryId: Int?
     var createTime: Int64?
@@ -34,3 +28,29 @@ struct productListModel: HandyJSON{
     var stockNum: Int?
     var updateTime: Int64?
 }
+
+struct categoryModel: HandyJSON {
+    var categoryList: [categoryListModel]?
+}
+
+struct categoryListModel: HandyJSON {
+    var categroyId: Int?
+    var createTime: Int64?
+    var icon: String?
+    var name: String?
+    var updateTime: Int64?
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
