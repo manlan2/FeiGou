@@ -82,10 +82,10 @@
             <objects>
                 <navigationController title="首页" id="czq-4o-Leg" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="首页" image="tab_home_unselect" selectedImage="tab_home_select" id="XJe-kb-c7U"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="L1L-S6-H5T">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="L1L-S6-H5T">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.99215686274509807" green="0.81960784313725488" blue="0.086274509803921567" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.99145156145095825" green="0.82095843553543091" blue="0.085141517221927643" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <connections>
                         <segue destination="9bS-DT-0RB" kind="relationship" relationship="rootViewController" id="8dH-54-Npa"/>
@@ -127,7 +127,7 @@
         <!--Root View Controller-->
         <scene sceneID="fl0-Hg-5Xf">
             <objects>
-                <tableViewController id="bmQ-ps-24j" sceneMemberID="viewController">
+                <tableViewController id="bmQ-ps-24j" customClass="MyTableViewController" customModule="FeiGou" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="pYp-y5-veA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

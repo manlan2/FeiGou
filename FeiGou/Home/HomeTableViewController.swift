@@ -57,6 +57,7 @@ class HomeTableViewController: UITableViewController , BannerViewDelegate, UICol
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.navigationItem.titleView = UIImageView.init(image: UIImage.init(named: "homelogo"))
         self.tableView.tableHeaderView = self.headView
         
         FeiGouApi.shareInstance.getHomeList(pageNum: 0, pageSize: 3) { (respondModel) in
@@ -74,7 +75,7 @@ class HomeTableViewController: UITableViewController , BannerViewDelegate, UICol
         // Dispose of any resources that can be recreated.
     }
     
-    // MARK banner delegate
+    // MARK: - banner delegate
     
     func didSelectImg(atIndex: Int) {
         print(atIndex)
