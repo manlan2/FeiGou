@@ -11,52 +11,53 @@
         <scene sceneID="XbC-b7-w6E">
             <objects>
                 <tableViewController id="9bS-DT-0RB" customClass="HomeTableViewController" customModule="FeiGou" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="105" sectionHeaderHeight="28" sectionFooterHeight="28" id="SpA-6k-53k">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="90" sectionHeaderHeight="28" sectionFooterHeight="28" id="SpA-6k-53k">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="homelistcell" rowHeight="105" id="PJV-np-wGN" customClass="HomeListCell" customModule="FeiGou" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="92" width="375" height="105"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="homelistcell" rowHeight="90" id="PJV-np-wGN" customClass="HomeListCell" customModule="FeiGou" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="92" width="375" height="90"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="PJV-np-wGN" id="qcZ-Gn-JRn">
-                                    <frame key="frameInset" width="375" height="104.5"/>
+                                    <frame key="frameInset" width="375" height="89.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="agE-vg-8o1">
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="130" id="iAe-vw-vid"/>
+                                                <constraint firstAttribute="width" constant="100" id="iAe-vw-vid"/>
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wn9-S8-c3N">
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <color key="textColor" red="0.2196078431372549" green="0.2196078431372549" blue="0.2196078431372549" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zEA-vC-7Rb">
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <color key="textColor" red="0.99215686274509807" green="0.59607843137254901" blue="0.086274509803921567" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vfg-Cz-8sS">
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <color key="textColor" red="0.99215686270000003" green="0.59607843140000005" blue="0.086274509799999996" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="agE-vg-8o1" firstAttribute="leading" secondItem="qcZ-Gn-JRn" secondAttribute="leading" constant="10" id="04t-FI-paP"/>
-                                        <constraint firstAttribute="bottom" secondItem="vfg-Cz-8sS" secondAttribute="bottom" constant="22" id="BSb-bd-pII"/>
-                                        <constraint firstAttribute="bottom" secondItem="zEA-vC-7Rb" secondAttribute="bottom" constant="20" id="Jrw-tp-p7D"/>
+                                        <constraint firstAttribute="bottom" secondItem="vfg-Cz-8sS" secondAttribute="bottom" constant="17" id="BSb-bd-pII"/>
+                                        <constraint firstAttribute="bottom" secondItem="zEA-vC-7Rb" secondAttribute="bottom" constant="15" id="Jrw-tp-p7D"/>
                                         <constraint firstAttribute="trailing" secondItem="vfg-Cz-8sS" secondAttribute="trailing" constant="8" id="Q7w-Rg-laa"/>
                                         <constraint firstItem="agE-vg-8o1" firstAttribute="top" secondItem="qcZ-Gn-JRn" secondAttribute="top" constant="10" id="Z4i-JW-J2i"/>
                                         <constraint firstAttribute="bottom" secondItem="agE-vg-8o1" secondAttribute="bottom" constant="10" id="cWZ-pV-dft"/>
                                         <constraint firstItem="wn9-S8-c3N" firstAttribute="leading" secondItem="agE-vg-8o1" secondAttribute="trailing" constant="8" id="f4b-no-V7T"/>
-                                        <constraint firstItem="wn9-S8-c3N" firstAttribute="top" secondItem="qcZ-Gn-JRn" secondAttribute="top" constant="20" id="iyR-R8-p1b"/>
+                                        <constraint firstItem="wn9-S8-c3N" firstAttribute="top" secondItem="qcZ-Gn-JRn" secondAttribute="top" constant="15" id="iyR-R8-p1b"/>
                                         <constraint firstItem="zEA-vC-7Rb" firstAttribute="leading" secondItem="agE-vg-8o1" secondAttribute="trailing" constant="8" id="oXI-fS-58q"/>
                                         <constraint firstItem="wn9-S8-c3N" firstAttribute="trailing" secondItem="qcZ-Gn-JRn" secondAttribute="trailingMargin" id="zO7-6d-Z3j"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <connections>
                                     <outlet property="img" destination="agE-vg-8o1" id="D8Q-XQ-aDu"/>
                                     <outlet property="price" destination="vfg-Cz-8sS" id="k9a-W8-84N"/>
