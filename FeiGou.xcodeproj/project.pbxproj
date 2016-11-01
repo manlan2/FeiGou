@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		074129551DC8814B0015B0D5 /* SetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074129541DC8814B0015B0D5 /* SetController.swift */; };
 		075FA7551DC1DAF30056FC29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FA7541DC1DAF30056FC29 /* AppDelegate.swift */; };
 		075FA75C1DC1DAF30056FC29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 075FA75B1DC1DAF30056FC29 /* Assets.xcassets */; };
 		075FA75F1DC1DAF30056FC29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075FA75D1DC1DAF30056FC29 /* LaunchScreen.storyboard */; };
@@ -21,14 +22,17 @@
 		075FA82C1DC202E90056FC29 /* HelpingMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FA8221DC202E90056FC29 /* HelpingMapper.swift */; };
 		075FA8311DC202E90056FC29 /* JSONDeserializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FA8271DC202E90056FC29 /* JSONDeserializer.swift */; };
 		075FA8321DC202E90056FC29 /* JSONSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FA8281DC202E90056FC29 /* JSONSerializer.swift */; };
-		075FA8331DC202E90056FC29 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FA8291DC202E90056FC29 /* Property.swift */; };
 		075FA83B1DC21E920056FC29 /* Info-iOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 075FA8351DC21E920056FC29 /* Info-iOS.plist */; };
 		075FA83C1DC21E920056FC29 /* Info-OSX.plist in Resources */ = {isa = PBXBuildFile; fileRef = 075FA8361DC21E920056FC29 /* Info-OSX.plist */; };
 		075FA83D1DC21E920056FC29 /* Info-tvOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 075FA8371DC21E920056FC29 /* Info-tvOS.plist */; };
 		075FA83E1DC21E920056FC29 /* Info-watchOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 075FA8381DC21E920056FC29 /* Info-watchOS.plist */; };
 		075FA83F1DC21E920056FC29 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FA83A1DC21E920056FC29 /* SwiftyJSON.swift */; };
+		0769E41B1DC82D91006D62EA /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0769E41A1DC82D91006D62EA /* BaseTableViewController.swift */; };
+		07817DD91DC8871200AB2C9C /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07817DD81DC8871200AB2C9C /* Property.swift */; };
 		07A14E731DC32F680097DA58 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A14E721DC32F680097DA58 /* BannerView.swift */; };
-		07D27F5E1DC475890001B0FD /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D27F5D1DC475890001B0FD /* MyTableViewController.swift */; };
+		07F431161DC8800B004C18D9 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F431141DC8800B004C18D9 /* LoginController.swift */; };
+		07F431171DC8800B004C18D9 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F431151DC8800B004C18D9 /* MyTableViewController.swift */; };
+		07F4311A1DC88033004C18D9 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F431191DC88033004C18D9 /* UserModel.swift */; };
 		07F4701A1DC438B6001AE583 /* CategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07F470181DC438B6001AE583 /* CategoryCell.xib */; };
 		E8CCA25878C282F45A120264 /* Pods_FeiGou.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E05AB36BDA527E2E1DB3F7A8 /* Pods_FeiGou.framework */; };
 /* End PBXBuildFile section */
@@ -51,6 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		074129541DC8814B0015B0D5 /* SetController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetController.swift; sourceTree = "<group>"; };
 		075FA7511DC1DAF30056FC29 /* FeiGou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeiGou.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		075FA7541DC1DAF30056FC29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
 		075FA75B1DC1DAF30056FC29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
@@ -72,15 +77,18 @@
 		075FA8221DC202E90056FC29 /* HelpingMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpingMapper.swift; sourceTree = "<group>"; };
 		075FA8271DC202E90056FC29 /* JSONDeserializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONDeserializer.swift; sourceTree = "<group>"; };
 		075FA8281DC202E90056FC29 /* JSONSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONSerializer.swift; sourceTree = "<group>"; };
-		075FA8291DC202E90056FC29 /* Property.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
 		075FA8351DC21E920056FC29 /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
 		075FA8361DC21E920056FC29 /* Info-OSX.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-OSX.plist"; sourceTree = "<group>"; };
 		075FA8371DC21E920056FC29 /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
 		075FA8381DC21E920056FC29 /* Info-watchOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-watchOS.plist"; sourceTree = "<group>"; };
 		075FA8391DC21E920056FC29 /* SwiftyJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftyJSON.h; sourceTree = "<group>"; };
 		075FA83A1DC21E920056FC29 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		0769E41A1DC82D91006D62EA /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		07817DD81DC8871200AB2C9C /* Property.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
 		07A14E721DC32F680097DA58 /* BannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
-		07D27F5D1DC475890001B0FD /* MyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		07F431141DC8800B004C18D9 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		07F431151DC8800B004C18D9 /* MyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		07F431191DC88033004C18D9 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		07F470181DC438B6001AE583 /* CategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryCell.xib; sourceTree = "<group>"; };
 		2E157C86BA893AEC6E30FBAC /* Pods-FeiGou.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeiGou.release.xcconfig"; path = "Pods/Target Support Files/Pods-FeiGou/Pods-FeiGou.release.xcconfig"; sourceTree = "<group>"; };
 		3F4060592FE6AE87551E84F5 /* Pods-FeiGou.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeiGou.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FeiGou/Pods-FeiGou.debug.xcconfig"; sourceTree = "<group>"; };
@@ -179,7 +187,8 @@
 		075FA7871DC1DB530056FC29 /* My */ = {
 			isa = PBXGroup;
 			children = (
-				07D27F5D1DC475890001B0FD /* MyTableViewController.swift */,
+				07F431181DC88024004C18D9 /* Model */,
+				07F431131DC87FE4004C18D9 /* Controller */,
 			);
 			path = My;
 			sourceTree = "<group>";
@@ -195,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				075FA7541DC1DAF30056FC29 /* AppDelegate.swift */,
+				0769E41A1DC82D91006D62EA /* BaseTableViewController.swift */,
 				075FA7821DC1DB200056FC29 /* Main.storyboard */,
 				075FA75B1DC1DAF30056FC29 /* Assets.xcassets */,
 				075FA75D1DC1DAF30056FC29 /* LaunchScreen.storyboard */,
@@ -222,7 +232,7 @@
 				075FA8221DC202E90056FC29 /* HelpingMapper.swift */,
 				075FA8271DC202E90056FC29 /* JSONDeserializer.swift */,
 				075FA8281DC202E90056FC29 /* JSONSerializer.swift */,
-				075FA8291DC202E90056FC29 /* Property.swift */,
+				07817DD81DC8871200AB2C9C /* Property.swift */,
 			);
 			path = HandyJSON;
 			sourceTree = "<group>";
@@ -238,6 +248,24 @@
 				075FA83A1DC21E920056FC29 /* SwiftyJSON.swift */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		07F431131DC87FE4004C18D9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				07F431151DC8800B004C18D9 /* MyTableViewController.swift */,
+				07F431141DC8800B004C18D9 /* LoginController.swift */,
+				074129541DC8814B0015B0D5 /* SetController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		07F431181DC88024004C18D9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				07F431191DC88033004C18D9 /* UserModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		2896E93676BD681B619EEFCB /* Pods */ = {
@@ -453,15 +481,19 @@
 				075FA7861DC1DB400056FC29 /* HomeTableViewController.swift in Sources */,
 				075FA78E1DC1DB6B0056FC29 /* FeiGouApi.swift in Sources */,
 				075FA82A1DC202E90056FC29 /* Converter.swift in Sources */,
+				07817DD91DC8871200AB2C9C /* Property.swift in Sources */,
 				075FA83F1DC21E920056FC29 /* SwiftyJSON.swift in Sources */,
 				075FA81D1DC1F9090056FC29 /* HomeModel.swift in Sources */,
-				075FA8331DC202E90056FC29 /* Property.swift in Sources */,
+				074129551DC8814B0015B0D5 /* SetController.swift in Sources */,
 				075FA82C1DC202E90056FC29 /* HelpingMapper.swift in Sources */,
 				075FA8321DC202E90056FC29 /* JSONSerializer.swift in Sources */,
-				07D27F5E1DC475890001B0FD /* MyTableViewController.swift in Sources */,
+				07F4311A1DC88033004C18D9 /* UserModel.swift in Sources */,
 				075FA8311DC202E90056FC29 /* JSONDeserializer.swift in Sources */,
+				07F431161DC8800B004C18D9 /* LoginController.swift in Sources */,
 				075FA7551DC1DAF30056FC29 /* AppDelegate.swift in Sources */,
+				07F431171DC8800B004C18D9 /* MyTableViewController.swift in Sources */,
 				07A14E731DC32F680097DA58 /* BannerView.swift in Sources */,
+				0769E41B1DC82D91006D62EA /* BaseTableViewController.swift in Sources */,
 				075FA78D1DC1DB6B0056FC29 /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

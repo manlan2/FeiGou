@@ -45,7 +45,7 @@ struct categoryListModel: HandyJSON {
     var createTime: Int64?
     var icon: String?
     var name: String?
-    var updateTime: Int64?
+    var updateTime: Int?
     
     mutating func mapping(mapper: HelpingMapper) {
         mapper.specify(property: &icon) { (string) -> (String) in
