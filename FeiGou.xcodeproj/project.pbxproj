@@ -28,6 +28,10 @@
 		075FA83E1DC21E920056FC29 /* Info-watchOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 075FA8381DC21E920056FC29 /* Info-watchOS.plist */; };
 		075FA83F1DC21E920056FC29 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FA83A1DC21E920056FC29 /* SwiftyJSON.swift */; };
 		0769E41B1DC82D91006D62EA /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0769E41A1DC82D91006D62EA /* BaseTableViewController.swift */; };
+		077AAE091DC9D599007EA5A3 /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077AAE081DC9D599007EA5A3 /* OrderModel.swift */; };
+		0780B9B71DC97FF100FAD6D2 /* OrderBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0780B9B61DC97FF100FAD6D2 /* OrderBarView.swift */; };
+		0780B9B91DC9879E00FAD6D2 /* OrderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0780B9B81DC9879E00FAD6D2 /* OrderController.swift */; };
+		0780B9BB1DC9A48100FAD6D2 /* OrderDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0780B9BA1DC9A48100FAD6D2 /* OrderDetailController.swift */; };
 		07817DD91DC8871200AB2C9C /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07817DD81DC8871200AB2C9C /* Property.swift */; };
 		07A14E731DC32F680097DA58 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A14E721DC32F680097DA58 /* BannerView.swift */; };
 		07F431161DC8800B004C18D9 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F431141DC8800B004C18D9 /* LoginController.swift */; };
@@ -84,6 +88,10 @@
 		075FA8391DC21E920056FC29 /* SwiftyJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftyJSON.h; sourceTree = "<group>"; };
 		075FA83A1DC21E920056FC29 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		0769E41A1DC82D91006D62EA /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		077AAE081DC9D599007EA5A3 /* OrderModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
+		0780B9B61DC97FF100FAD6D2 /* OrderBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderBarView.swift; sourceTree = "<group>"; };
+		0780B9B81DC9879E00FAD6D2 /* OrderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderController.swift; sourceTree = "<group>"; };
+		0780B9BA1DC9A48100FAD6D2 /* OrderDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderDetailController.swift; sourceTree = "<group>"; };
 		07817DD81DC8871200AB2C9C /* Property.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
 		07A14E721DC32F680097DA58 /* BannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
 		07F431141DC8800B004C18D9 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
@@ -196,6 +204,10 @@
 		075FA7881DC1DB590056FC29 /* Order */ = {
 			isa = PBXGroup;
 			children = (
+				077AAE071DC9D57C007EA5A3 /* Model */,
+				0780B9B81DC9879E00FAD6D2 /* OrderController.swift */,
+				0780B9B61DC97FF100FAD6D2 /* OrderBarView.swift */,
+				0780B9BA1DC9A48100FAD6D2 /* OrderDetailController.swift */,
 			);
 			path = Order;
 			sourceTree = "<group>";
@@ -248,6 +260,14 @@
 				075FA83A1DC21E920056FC29 /* SwiftyJSON.swift */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		077AAE071DC9D57C007EA5A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				077AAE081DC9D599007EA5A3 /* OrderModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		07F431131DC87FE4004C18D9 /* Controller */ = {
@@ -478,19 +498,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0780B9B91DC9879E00FAD6D2 /* OrderController.swift in Sources */,
 				075FA7861DC1DB400056FC29 /* HomeTableViewController.swift in Sources */,
 				075FA78E1DC1DB6B0056FC29 /* FeiGouApi.swift in Sources */,
 				075FA82A1DC202E90056FC29 /* Converter.swift in Sources */,
 				07817DD91DC8871200AB2C9C /* Property.swift in Sources */,
+				0780B9BB1DC9A48100FAD6D2 /* OrderDetailController.swift in Sources */,
 				075FA83F1DC21E920056FC29 /* SwiftyJSON.swift in Sources */,
 				075FA81D1DC1F9090056FC29 /* HomeModel.swift in Sources */,
 				074129551DC8814B0015B0D5 /* SetController.swift in Sources */,
 				075FA82C1DC202E90056FC29 /* HelpingMapper.swift in Sources */,
+				077AAE091DC9D599007EA5A3 /* OrderModel.swift in Sources */,
 				075FA8321DC202E90056FC29 /* JSONSerializer.swift in Sources */,
 				07F4311A1DC88033004C18D9 /* UserModel.swift in Sources */,
 				075FA8311DC202E90056FC29 /* JSONDeserializer.swift in Sources */,
 				07F431161DC8800B004C18D9 /* LoginController.swift in Sources */,
 				075FA7551DC1DAF30056FC29 /* AppDelegate.swift in Sources */,
+				0780B9B71DC97FF100FAD6D2 /* OrderBarView.swift in Sources */,
 				07F431171DC8800B004C18D9 /* MyTableViewController.swift in Sources */,
 				07A14E731DC32F680097DA58 /* BannerView.swift in Sources */,
 				0769E41B1DC82D91006D62EA /* BaseTableViewController.swift in Sources */,

@@ -42,8 +42,16 @@ class FeiGouApi: NSObject {
             }
         }
     }
+    
+    func getOrderList(status:Int, completion: @escaping (OrderListModel) -> Void) {
+        request(urlString: "order/findlist", method: .get, parameters: ["userId": UserManager.getUserId(), "Status": status, "pageNum": 0, "pageSize": 10]) { (jsonStr) in
+            if let model = JSONDeserializer<OrderListModel>.deserializeFrom(json: jsonStr) {
+                completion(model)
+            }
+        }
+    }
 
-    func request(urlString: String, method: HTTPMethod, parameters: [String: String]?, completion: @escaping (String?) -> Void) {
+    func request(urlString: String, method: HTTPMethod, parameters: [String: Any]?, completion: @escaping (String?) -> Void) {
         let url = URL.init(string: baseApi + urlString)!
         if method == .post {
             Alamofire.request(url, method: .post, parameters: parameters, encoding: JSONEncoding.prettyPrinted).responseJSON { (json) in
